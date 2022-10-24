@@ -44,7 +44,7 @@ function App() {
         {/* Container that defines horizontal limits of the content */}
         <div className='max-w-6xl mx-auto px-4 sm:px-10 pb-20 sm:mt-56 lg:mt-56'>
           <div className='mt-12 grid gap-y-12 sm:grid-cols-courses sm:gap-x-3 lg:gap-x-6 xl:gap-y-20'>
-            <p className='font-bold text-2xl bg-gradient-to-b from-orange to-light-purple text-white py-6 px-7 inline-block rounded-xl min-[692px]:pt-14'>Checkout our most popular courses!</p>
+            <p className='font-bold text-2xl bg-gradient-to-b from-orange to-light-purple text-white py-6 px-7 inline-block rounded-xl min-[692px]:pt-14 xl:text-[32px] xl:leading-10 xl:pt-10'>Checkout our most popular courses!</p>
             <CourseCard
               icon={iconAnimation}
               title='Animation'
